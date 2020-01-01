@@ -18,4 +18,5 @@ def port_scanner(port):
 for port in range(1,1000):
     port_scanner(port)
 
-import time
+print('Time taken:', time.time() - startTime)
+
