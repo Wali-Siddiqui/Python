@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 import socket
+import time 
 from termcolor import colored
 # for TCP packets 
 sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -17,3 +18,4 @@ def port_scanner(port):
 for port in range(1,1000):
     port_scanner(port)
 
+import time
